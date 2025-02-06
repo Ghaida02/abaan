@@ -68,10 +68,8 @@
     .contact .phone {
       margin: 8px 0;
       font-size: 18px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
+      display: block; /* هنا نستخدم block ليظهر كل رقم تحت الآخر */
+      text-align: right;
     }
 
     .contact .phone a {
@@ -96,6 +94,7 @@
       text-align: center;
       font-size: 16px;
     }
+
   </style>
 </head>
 <body>
@@ -114,7 +113,7 @@
       <br>
       <div class="social-icons">
         <!-- أيقونة فيسبوك -->
-        <a href="https://www.facebook.com/share/18RsQuWnnr/" target="_blank" title="فيسبوك">
+        <a href="https://www.facebook.com/share/1A5zErLwsU/?mibextid=wwXIfr/" target="_blank" title="فيسبوك">
           <i class="fab fa-facebook-f"></i>
         </a>
         <!-- أيقونة تيك توك -->
@@ -129,7 +128,7 @@
     </div>
 
     <div class="contact">
-      <h3>لتواصل مع</h3>
+      <h3>:لتواصل مع</h3>
       <div class="phone">
         <span class="phone-icon">
           <i class="fas fa-phone-alt"></i>
@@ -141,7 +140,7 @@
           <i class="fas fa-phone-alt"></i>
         </span>
         صالة مبيعات:
-        <a href="tel:0914550300">0914550300</a>,
+        <a href="tel:0914550300">0914550300</a>
         <a href="tel:0914550200">0914550200</a>
       </div>
     </div>
